@@ -117,21 +117,31 @@
                             <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="media-left"><span class="icon-mobile"></span></div>
-                        <div class="media-body">
-                            <h3>App móviles</h3>
-                            <p>Una aplicación móvil se puede descargar, instalar y acceder directamente desde el teléfono
-                            aprovechando los grandes avances tecnológicos que brindan día con día.</p>
+                    <div class="row wow fadeInUp" data-wow-delay=".6s">
+                        <div class="col-md-4">
+                            <div class="media-left"><span class="icon-mobile"></span></div>
+                            <div class="media-body">
+                                <h3>App móviles</h3>
+                                <p>Una aplicación móvil se puede descargar, instalar y acceder directamente desde el teléfono
+                                aprovechando los grandes avances tecnológicos que brindan día con día.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-left"><span class="icon-toolbox"></span></div>
-                        <div class="media-body">
-                            <h3>Programación de hardware libre</h3>
-                            <p>Se trabaja con hardware libre, como lo es una placa Arduino, y con un entorno de desarrollo,
-                            empleado con el fin de facilitar el uso de dichos dispositivos en proyectos multidisciplinarios.</p>
+                        <div class="col-md-4">
+                            <div class="media-left"><span class="icon-toolbox"></span></div>
+                            <div class="media-body">
+                                <h3>Programación de hardware libre</h3>
+                                <p>Se trabaja con hardware libre, como lo es una placa Arduino, y con un entorno de desarrollo,
+                                empleado con el fin de facilitar el uso de dichos dispositivos en proyectos multidisciplinarios.</p>
+                            </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="media-left"><span class="icon-toolbox"></span></div>
+                            <div class="media-body">
+                                <h3>Enfoque empresarial</h3>
+                                <p>Ayuda al futuro profesional en la planificación, control y dirección de la gestión de la informática
+                                en la organización.</p>
+                            </div>
+                        </div>                        
                     </div>
                 </div>
             </div>
