@@ -271,11 +271,11 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="./picture/Logo.png"/>
+                            <img src="./uploads/pictures/Logo.png"/>
                         </div>
 
                         <div class="item">
-                            <img src="./picture/manuales.png"/>
+                            <img src="./uploads/pictures/manuales.png"/>
                         </div>
                     </div>
 
