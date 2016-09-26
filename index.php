@@ -36,8 +36,7 @@
     <style>
         body {position: relative; }
         .carousel-inner > .item > img,
-        .carousel-inner > .item > a > img {width: 70%;margin: auto;
-                        max-height: 445px;max-width: 560px}
+        .carousel-inner > .item > a > img {width: 70%;margin: auto;max-height: 445px;}
     </style>
 </head>
 
@@ -331,13 +330,15 @@
                 <!-- Colección de botones -->
                 <div>
                     <button type="button" class="btn btn-default" 
-                            onclick="changeColor('btnDev','white')">Blanco</button>
+                            onclick="changeColor('btnDev','white')">Botón</button>
                     <button type="button" class="btn btn-primary" 
-                            onclick="changeColor('team','#1E88E5')">Azul</button>
+                            onclick="changeColor('team','#1E88E5')">Panel</button>
                     <button type="button" class="btn btn-success" 
-                            onclick="changeColor('myMenu','#2eb82e')">Verde</button>
+                            onclick="changeColor('myMenu','#2eb82e')">Menú</button>
                     <button type="button" class="btn btn-warning" 
-                            onclick="changeColor('footer','#cc6600')">Naranja</button>
+                            onclick="changeColor('footer','#cc6600')">Footer</button>
+                    <button type="button" class="btn btn-default" 
+                            onclick="removeChange()">Restaurar</button>
                 </div>
             </div>
         </div>
@@ -346,31 +347,27 @@
 	============================================= -->
     <footer id="footer">
         <div class="container">
-            <h6>&copy; 2016 INEMTU: Informática Empresarial Turrialba</h6>
-                <div class="col-md-10 col-md-offset-4">
-                    <div class="col-md-10 text-right">
-                        <!-- Trigger the modal with a button -->
-                        <button type="button" class="btn btn-info btn-lg" id="btnDev" 
-                                data-toggle="modal" data-target="#myModal"
-                                style="background-color: #24242A; float: left">Desarrolladores</button>
+            <h6 >&copy; 2016 INEMTU: Informática Empresarial Turrialba</h6>
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" id="btnDev" 
+                        data-toggle="modal" data-target="#myModal"
+                        style="background-color: #24242A;">Desarrolladores</button>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="myModal" role="dialog">
-                            <div class="modal-dialog">
-    
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="modal-header" style="background-color: #24242A;">
-                                        <button type="button" class="close" data-dismiss="modal"
-                                                style="color:#FFF;">&times;</button>
-                                        <h4 class="modal-title text-center" style="color:#FFF;">Desarrolladores</h4>
-                                    </div>
-                                    <div class="modal-body text-left">
-                                        <a href="https://www.facebook.com/jessika.moralesmadrigal" target="_blank"><h6 class="text-primary">Jessika Morales Madrigal</h6></a>
-                                        <a href="https://www.facebook.com/yunenrr" target="_blank"><h6 class="text-primary">Yunen Ramos Ramírez</h6></a>
-                                        <a href="https://www.facebook.com/vanessa.calderon.908347" target="_blank"><h6 class="text-primary">Karen Calderón Calvo</h6></a>
-                                    </div>
-                                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header" style="background-color: #24242A;">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        style="color:#FFF;">&times;</button>
+                                <h4 class="modal-title text-center" style="color:#FFF;">Desarrolladores</h4>
+                            </div>
+                            <div class="modal-body text-left">
+                                <a href="https://www.facebook.com/jessika.moralesmadrigal" target="_blank"><h6 class="text-primary">Jessika Morales Madrigal</h6></a>
+                                <a href="https://www.facebook.com/yunenrr" target="_blank"><h6 class="text-primary">Yunen Ramos Ramírez</h6></a>
+                                <a href="https://www.facebook.com/vanessa.calderon.908347" target="_blank"><h6 class="text-primary">Karen Calderón Calvo</h6></a>
                             </div>
                         </div>
                     </div>
@@ -386,13 +383,10 @@
     <!-- JS PLUGINS -->
     <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
-    <script src="plugins/waypoints/jquery.waypoints.min.js"></script>
     <script src="plugins/countTo/jquery.countTo.js"></script>
     <script src="plugins/inview/jquery.inview.min.js"></script>
     <script src="plugins/Lightbox/dist/js/lightbox.min.js"></script>
     <script src="plugins/WOW/dist/wow.min.js"></script>
-    <!-- GOOGLE MAP -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
         /*
          * Función que permite cambiar el color de fondo
@@ -400,15 +394,21 @@
          * @param {string} color
          * @returns {none}
          */
-        function changeColor(section,color)
+        function changeColor(section)
         {
-            document.getElementById(section).style.backgroundColor=color;
-
-            if(color === 'white')
-            {
-                changeColorText(section,'black');
-            }//Fin del if
+            document.getElementById(section).style.backgroundColor=getColor();
         }//Fin de la función
+        
+        /*
+         * Función que nos permite eliminar los cambios realizados
+         */
+        function removeChange()
+        {
+            document.getElementById('btnDev').style.backgroundColor='#24242A';
+            document.getElementById('myMenu').style.backgroundColor='#24242A';
+            document.getElementById('footer').style.backgroundColor='#24242A';
+            document.getElementById('team').style.backgroundColor='#FFF';
+        }
 
         /**
          * Función que permite cambiar el color de texto
@@ -420,6 +420,35 @@
         {
             document.getElementById(section).style.color=color;
         }//Fin de la función
+        
+        /**
+         * Función que retorna un color
+         * */
+        function getColor()
+        {
+           hexadecimal = new Array("0","1","2","3","4","5","6","7","8","9",
+           "A","B","C","D","E","F");
+           ramdonColor = "#";
+           for (i=0;i<6;i++)
+           {
+              posarray = aleatorio(0,hexadecimal.length);
+              ramdonColor += hexadecimal[posarray];
+           }
+           return ramdonColor;
+        }
+        
+        /*
+         * @param {type} inferior
+         * @param {type} superior
+         * @returns {numPosibilidades|superior|aleatorio.inferior|inferior|aleatorio.superior|Number|aleat}
+         */
+        function aleatorio(inferior,superior)
+        {
+           numPosibilidades = superior - inferior;
+           aleat = Math.random() * numPosibilidades;
+           aleat = Math.floor(aleat);
+           return parseInt(inferior) + aleat;
+        }
     </script>
 </body>
 
