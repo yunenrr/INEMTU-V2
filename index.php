@@ -48,7 +48,7 @@
     <!-- Header
 	============================================= -->
     <section class="main-header">
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top" id="myMenu">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -326,17 +326,31 @@
                     </a>
                 </div>
             </div>
+            <hr class="sep">
+            <div class="container">
+                <!-- Colección de botones -->
+                <div>
+                    <button type="button" class="btn btn-default" 
+                            onclick="changeColor('btnDev','white')">Blanco</button>
+                    <button type="button" class="btn btn-primary" 
+                            onclick="changeColor('team','#1E88E5')">Azul</button>
+                    <button type="button" class="btn btn-success" 
+                            onclick="changeColor('myMenu','#2eb82e')">Verde</button>
+                    <button type="button" class="btn btn-warning" 
+                            onclick="changeColor('footer','#cc6600')">Naranja</button>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Footer
 	============================================= -->
-    <footer>
+    <footer id="footer">
         <div class="container">
             <h6>&copy; 2016 INEMTU: Informática Empresarial Turrialba</h6>
                 <div class="col-md-10 col-md-offset-4">
                     <div class="col-md-10 text-right">
                         <!-- Trigger the modal with a button -->
-                        <button type="button" class="btn btn-info btn-lg" 
+                        <button type="button" class="btn btn-info btn-lg" id="btnDev" 
                                 data-toggle="modal" data-target="#myModal"
                                 style="background-color: #24242A; float: left">Desarrolladores</button>
 
@@ -379,6 +393,34 @@
     <script src="plugins/WOW/dist/wow.min.js"></script>
     <!-- GOOGLE MAP -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        /*
+         * Función que permite cambiar el color de fondo
+         * @param {string} section
+         * @param {string} color
+         * @returns {none}
+         */
+        function changeColor(section,color)
+        {
+            document.getElementById(section).style.backgroundColor=color;
+
+            if(color === 'white')
+            {
+                changeColorText(section,'black');
+            }//Fin del if
+        }//Fin de la función
+
+        /**
+         * Función que permite cambiar el color de texto
+         * @param {string} section
+         * @param {string} color
+         * @returns {none}
+         */
+        function changeColorText(section,color)
+        {
+            document.getElementById(section).style.color=color;
+        }//Fin de la función
+    </script>
 </body>
 
 </html>
