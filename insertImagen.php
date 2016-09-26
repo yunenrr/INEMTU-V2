@@ -9,7 +9,7 @@ mssql_select_db($database ,$conn);
 
 $imagen=$_POST['imagen'];
 
-mssql_query("insert into imagen(ruta) values ('pictures/".$imagen."'),$conn");
+mssql_query("insert into imagen(ruta) values ('pictures/".$imagen."')",$conn);
 
 mssql_close($conn);
 

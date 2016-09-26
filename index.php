@@ -99,22 +99,37 @@
                         <div class="media-left"><span class="icon-desktop"></span></div>
                         <div class="media-body">
                             <h3>Aplicaciones de escritorio</h3>
-                            <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor</p>
+                            <p>Una aplicación de escritorio es aquella que se 
+                                encuentra instalado en el ordenador o sistema de 
+                                almacenamiento (USB) y podemos ejecutarlo sin 
+                                internet en nuestro sistema operativo, al 
+                                contrario que las aplicaciones en la nube que se 
+                                encuentran en otro ordenador (servidor) al que 
+                                accedemos a través de la red o internet a su 
+                                software.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="media-left"><span class="icon-global"></span></div>
                         <div class="media-body">
                             <h3>Desarrollo web</h3>
-                            <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
+                            <p>Desarrollo web es un término amplio que define la 
+                                creación de sitios web para Internet o una 
+                                intranet. Para conseguirlo se hace uso de 
+                                tecnologías de software del lado del servidor y 
+                                del cliente que involucran una combinación de 
+                                procesos de base de datos con el uso de un navegador web a fin de realizar determinadas tareas o mostrar información.</p>
                         </div>
-
                     </div>
                     <div class="col-md-4">
                         <div class="media-left"><span class="icon-documents"></span></div>
                         <div class="media-body">
                             <h3>Bases de datos</h3>
-                            <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.</p>
+                            <p>Se le llama base de datos a los bancos de 
+                                información que contienen datos relativos a 
+                                diversas temáticas y categorizados de distinta 
+                                manera, pero que comparten entre sí algún tipo 
+                                de vínculo.</p>
                         </div>
                     </div>
                     <div class="row wow fadeInUp" data-wow-delay=".6s">
@@ -297,6 +312,35 @@
     <footer>
         <div class="container">
             <h6>&copy; 2016 INEMTU: Informática Empresarial Turrialba</h6>
+                <div class="col-md-10 col-md-offset-4">
+                    <div class="col-md-10 text-right">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-info btn-lg" 
+                                data-toggle="modal" data-target="#myModal"
+                                style="background-color: #24242A; float: left">Desarrolladores</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+    
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header" style="background-color: #24242A;">
+                                        <button type="button" class="close" data-dismiss="modal"
+                                                style="color:#FFF;">&times;</button>
+                                        <h4 class="modal-title text-center" style="color:#FFF;">Desarrolladores</h4>
+                                    </div>
+                                    <div class="modal-body text-left">
+                                        <a href="https://www.facebook.com/jessika.moralesmadrigal" target="_blank"><h6 class="text-primary">Jessika Morales Madrigal</h6></a>
+                                        <a href="https://www.facebook.com/yunenrr" target="_blank"><h6 class="text-primary">Yunen Ramos Ramírez</h6></a>
+                                        <a href="https://www.facebook.com/vanessa.calderon.908347" target="_blank"><h6 class="text-primary">Karen Calderon Calvo</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
