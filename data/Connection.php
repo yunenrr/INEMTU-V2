@@ -17,9 +17,9 @@ class Connection
     public function Connection()
     {
         $this->server = "163.178.107.130";
-        $this->user = "sqlserver";
-        $this->password = "saucr.12";
-        $this->db = "INEMTU";
+        $this->user = "adm";
+        $this->password = "saucr.092";
+        $this->db = "inemtu";
     }//Fin del método constructor
     
     /*
@@ -27,7 +27,7 @@ class Connection
      */
     public function getConnection()
     {
-        $this->connection = mssql_connect($this->server,$this->user,$this->password);
+        $this->connection = mysqli_connect($this->server,$this->user,$this->password,$this->db);
         return $this->connection;
     }//Fin del método getConnection
     
@@ -36,7 +36,7 @@ class Connection
      */
     public function closeConnection()
     {
-        mssql_close($this->connection);
+        mysqli_close($this->connection);
     }//Fin del método closeConnection
 }//Fin de la clase
 ?>

@@ -1,3 +1,6 @@
+<?php
+ include './business/ConsultBusiness.php';
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -41,7 +44,7 @@
 <body>
     <!-- Preloader
 	============================================= -->
-    <div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
+    <!--<div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>-->
     <!-- Header
 	============================================= -->
     <section class="main-header">
@@ -280,18 +283,36 @@
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      
+                        <?php
+                            $consultBusiness = new ConsultBusiness();
+                            $pictures = $consultBusiness->getAllPictures();
+                            $temp = 1;
+                            foreach ($pictures as $currentPicture) 
+                            {
+                                echo '<li data-target="#myCarousel" data-slide-to="'.$temp.'"></li>';
+                                $temp++;
+                            }
+                        ?>
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="./uploads/pictures/Logo.png"/>
-                        </div>
-
-                        <div class="item">
                             <img src="./uploads/pictures/manuales.png"/>
                         </div>
+                        
+                        <?php
+                            $consultBusiness = new ConsultBusiness();
+                            $pictures = $consultBusiness->getAllPictures();
+                           
+                            foreach ($pictures as $currentPicture) 
+                            {
+                                echo'<div class="item">'
+                                . '<img src="./uploads/pictures/'.$currentPicture->path.'"/>'
+                                        . '</div>';
+                            }
+                        ?>
                     </div>
 
                     <!-- Left and right controls -->

@@ -1,5 +1,6 @@
 <?php
-include '../domain/PictureInformation.php';
+include './data/Connection.php';
+include './domain/PictureInformation.php';
 
 class ConsultData
 {
@@ -19,13 +20,14 @@ class ConsultData
     public function getAllPictures()
     {
         //Abrimos conexión y pedimos los datos
-        $result = mssql_query($this->connect->getConnection(),'SELECT * FROM imagen');
+        
+        $result = mysqli_query($this->connect->getConnection(),'SELECT * FROM imagenes');
         $this->connect->closeConnection();
         
         $array = [];
         
         //While para llenar el array
-        while($row = mssql_fetch_array($result))
+        while($row = mysqli_fetch_array($result))
         {
             $currentPicture = new PictureInformation($row['id'], $row['ruta']);
             array_push($array,$currentPicture);
@@ -34,4 +36,3 @@ class ConsultData
         return $array;
     }//Fin del método
 }//Fin de la clase
-?>

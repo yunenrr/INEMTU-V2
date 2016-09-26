@@ -1,5 +1,5 @@
 <?php
-include '../data/ConsultData.php';
+include './data/ConsultData.php';
 
 class ConsultBusiness
 {
@@ -8,7 +8,7 @@ class ConsultBusiness
     /**
      * Método constructor
      */
-    public function ConsultData()
+    public function ConsultBusiness()
     {
         $this->consultData = new ConsultData();
     }//Fin del método constructor

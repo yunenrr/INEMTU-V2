@@ -1,16 +1,13 @@
 <?PHP
-$hostname="163.178.107.130";
-$database ="INEMTU";
-$username ="sqlserver";
-$password ="saucr.12";
+$hostname_localhost ="163.178.107.130";
+$database_localhost ="inemtu";
+$username_localhost ="adm";
+$password_localhost ="saucr.092";
+$localhost = mysqli_connect($hostname_localhost,$username_localhost,$password_localhost,$database_localhost)
+or
+trigger_error(mysqli_connect_errno() ,E_USER_ERROR); 
+$imagen = filter_input(INPUT_POST, 'imagen');
+$query_search = "insert into imagenes(ruta) values ('".$imagen."')";
+$query_exec = mysqli_query($localhost,$query_search) or die(mysqli_connect_errno());
 
-$conn = mssql_connect($hostname,$username,$password);
-mssql_select_db($database ,$conn);
-
-$imagen=$_POST['imagen'];
-
-mssql_query("insert into imagen(ruta) values ('pictures/".$imagen."')",$conn);
-
-mssql_close($conn);
-
-?>
+mysqli_close($localhost);
