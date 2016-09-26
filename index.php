@@ -135,32 +135,32 @@
                                 de vínculo.</p>
                         </div>
                     </div>
-                    <div class="row wow fadeInUp" data-wow-delay=".6s">
-                        <div class="col-md-4">
-                            <div class="media-left"><span class="icon-mobile"></span></div>
-                            <div class="media-body">
-                                <h3>App móviles</h3>
-                                <p>Una aplicación móvil se puede descargar, instalar y acceder directamente desde el teléfono
-                                aprovechando los grandes avances tecnológicos que brindan día con día.</p>
-                            </div>
+                </div>
+                <div class="row wow fadeInUp" data-wow-delay=".6s">
+                    <div class="col-md-4">
+                        <div class="media-left"><span class="icon-mobile"></span></div>
+                        <div class="media-body">
+                            <h3>App móviles</h3>
+                            <p>Una aplicación móvil se puede descargar, instalar y acceder directamente desde el teléfono
+                            aprovechando los grandes avances tecnológicos que brindan día con día.</p>
                         </div>
-                        <div class="col-md-4">
-                            <div class="media-left"><span class="icon-toolbox"></span></div>
-                            <div class="media-body">
-                                <h3>Programación de hardware libre</h3>
-                                <p>Se trabaja con hardware libre, como lo es una placa Arduino, y con un entorno de desarrollo,
-                                empleado con el fin de facilitar el uso de dichos dispositivos en proyectos multidisciplinarios.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="media-left"><span class="icon-toolbox"></span></div>
-                            <div class="media-body">
-                                <h3>Enfoque empresarial</h3>
-                                <p>Ayuda al futuro profesional en la planificación, control y dirección de la gestión de la informática
-                                en la organización.</p>
-                            </div>
-                        </div>                        
                     </div>
+                    <div class="col-md-4">
+                        <div class="media-left"><span class="icon-toolbox"></span></div>
+                        <div class="media-body">
+                            <h3>Programación de hardware libre</h3>
+                            <p>Se trabaja con hardware libre, como lo es una placa Arduino, y con un entorno de desarrollo,
+                            empleado con el fin de facilitar el uso de dichos dispositivos en proyectos multidisciplinarios.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="media-left"><span class="icon-pencil"></span></div>
+                        <div class="media-body">
+                            <h3>Enfoque empresarial</h3>
+                            <p>Ayuda al futuro profesional en la planificación, control y dirección de la gestión de la informática
+                            en la organización.</p>
+                        </div>
+                    </div>                        
                 </div>
             </div>
         </div>
@@ -368,7 +368,7 @@
                                     <div class="modal-body text-left">
                                         <a href="https://www.facebook.com/jessika.moralesmadrigal" target="_blank"><h6 class="text-primary">Jessika Morales Madrigal</h6></a>
                                         <a href="https://www.facebook.com/yunenrr" target="_blank"><h6 class="text-primary">Yunen Ramos Ramírez</h6></a>
-                                        <a href="https://www.facebook.com/vanessa.calderon.908347" target="_blank"><h6 class="text-primary">Karen Calderon Calvo</h6></a>
+                                        <a href="https://www.facebook.com/vanessa.calderon.908347" target="_blank"><h6 class="text-primary">Karen Calderón Calvo</h6></a>
                                     </div>
                                 </div>
                             </div>
