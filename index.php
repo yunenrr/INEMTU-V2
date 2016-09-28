@@ -98,40 +98,39 @@
             <div class="services-box">
                 <div class="row wow fadeInUp" data-wow-delay=".3s">
                     <div class="col-md-4">
-                        <div class="media-left"><span class="icon-desktop"></span></div>
+                        <div class="media-left"><button style="background:#24242A;border: none" id="iconAppEsc"><span class="icon-desktop"></span></button></div>
                         <div class="media-body">
                             <h3>Aplicaciones de escritorio</h3>
-                            <p>Una aplicación de escritorio es aquella que se 
-                                encuentra instalado en el ordenador o sistema de 
-                                almacenamiento (USB) y podemos ejecutarlo sin 
-                                internet en nuestro sistema operativo, al 
-                                contrario que las aplicaciones en la nube que se 
-                                encuentran en otro ordenador (servidor) al que 
-                                accedemos a través de la red o internet a su 
-                                software.</p>
+                            <p>
+                                Es aquella que se encuentra instalado en el 
+                                ordenador o sistema de almacenamiento y podemos 
+                                ejecutarlo sin internet en nuestro sistema 
+                                operativo.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="media-left"><span class="icon-global"></span></div>
+                        <div class="media-left"><button style="background:#24242A;border: none" id="iconDesWeb"><span class="icon-global"></span></button></div>
                         <div class="media-body">
                             <h3>Desarrollo web</h3>
-                            <p>Desarrollo web es un término amplio que define la 
-                                creación de sitios web para Internet o una 
-                                intranet. Para conseguirlo se hace uso de 
-                                tecnologías de software del lado del servidor y 
-                                del cliente que involucran una combinación de 
-                                procesos de base de datos con el uso de un navegador web a fin de realizar determinadas tareas o mostrar información.</p>
+                            <p>
+                                Son aquellas herramientas que los usuarios 
+                                pueden utilizar accediendo a un servidor web a 
+                                través de Internet o de una intranet mediante 
+                                un navegador.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="media-left"><span class="icon-documents"></span></div>
+                        <div class="media-left"><button style="background:#24242A;border: none" id="iconDatBas"><span class="icon-documents"></span></button></div>
                         <div class="media-body">
                             <h3>Bases de datos</h3>
-                            <p>Se le llama base de datos a los bancos de 
-                                información que contienen datos relativos a 
-                                diversas temáticas y categorizados de distinta 
-                                manera, pero que comparten entre sí algún tipo 
-                                de vínculo.</p>
+                            <p>
+                                Es un almacén que nos permite guardar grandes 
+                                cantidades de información de forma organizada 
+                                para que luego podamos encontrar y utilizar 
+                                fácilmente.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -140,24 +139,34 @@
                         <div class="media-left"><button style="background:#24242A;border: none" id="iconAppM"><span class="icon-mobile"></span></button></div>
                         <div class="media-body">
                             <h3>App móviles</h3>
-                            <p>Una aplicación móvil se puede descargar, instalar y acceder directamente desde el teléfono
-                            aprovechando los grandes avances tecnológicos que brindan día con día.</p>
+                            <p>
+                                Una aplicación móvil se puede descargar, 
+                                instalar y acceder directamente desde el teléfono 
+                                aprovechando los grandes avances tecnológicos 
+                                que brindan día con día.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="media-left"><span class="icon-toolbox"></span></div>
+                        <div class="media-left"><button style="background:#24242A;border: none" id="iconHardwareF"><span class="icon-toolbox"></span></button></div>
                         <div class="media-body">
                             <h3>Programación de hardware libre</h3>
-                            <p>Se trabaja con hardware libre, como lo es una placa Arduino, y con un entorno de desarrollo,
-                            empleado con el fin de facilitar el uso de dichos dispositivos en proyectos multidisciplinarios.</p>
+                            <p>
+                                Se trabaja con hardware libre, como lo es una 
+                                placa Arduino, y con un entorno de desarrollo, para 
+                                facilitar el uso en proyectos multidisciplinarios.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="media-left"><span class="icon-pencil"></span></div>
+                        <div class="media-left"><button style="background:#24242A;border: none" id="iconEnfE"><span class="icon-pencil"></span></button></div>
                         <div class="media-body">
                             <h3>Enfoque empresarial</h3>
-                            <p>Ayuda al futuro profesional en la planificación, control y dirección de la gestión de la informática
-                            en la organización.</p>
+                            <p>
+                                Ayuda al futuro profesional en la planificación, 
+                                control y dirección de la gestión de la informática 
+                                en la organización.
+                            </p>
                         </div>
                     </div>                        
                 </div>
@@ -175,20 +184,67 @@
             </div>
           </div>
         </div>
-
+        
         <!-- Modal -->
-        <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal fade" id="myModalHardwareF" role="dialog">
           <div class="modal-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-body">
-                <img src="http://informacionimagenes.net/wp-content/uploads/2016/07/fotos-muy-graciosas-divertidas.png">
+                  <img class="img-responsive" src="./img/portfolio/maxresdefault.jpg">
               </div>
             </div>
-
           </div>
         </div>
+        
+       <!-- Modal -->
+        <div class="modal fade" id="myModalEnfE" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                  <img class="img-responsive" src="./img/portfolio/empresa.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+       
+     <!-- Modal -->
+        <div class="modal fade" id="myModalAppEsc" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                  <img class="img-responsive" src="./img/portfolio/ListImagenes.png">
+              </div>
+            </div>
+          </div>
+        </div>
+     
+     <!-- Modal -->
+        <div class="modal fade" id="myModalDesWeb" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                  <img class="img-responsive" src="./img/portfolio/web-app.png">
+              </div>
+            </div>
+          </div>
+        </div>
+
+     <!-- Modal -->
+        <div class="modal fade" id="myModalDatBas" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                  <img class="img-responsive" src="./img/portfolio/filesbasededatos.png">
+              </div>
+            </div>
+          </div>
+        </div>
+     
     <!-- Portfolio
 	============================================= -->
     <section id="portfolio">
@@ -353,9 +409,9 @@
                                 <h4 class="modal-title text-center" style="color:#FFF;">Desarrolladores</h4>
                             </div>
                             <div class="modal-body text-left">
-                                <a href="https://www.facebook.com/jessika.moralesmadrigal" target="_blank"><h6 class="text-primary">Jessika Morales Madrigal</h6></a>
                                 <a href="https://www.facebook.com/yunenrr" target="_blank"><h6 class="text-primary">Yunen Ramos Ramírez</h6></a>
                                 <a href="https://www.facebook.com/vanessa.calderon.908347" target="_blank"><h6 class="text-primary">Karen Calderón Calvo</h6></a>
+                                <a href="https://www.facebook.com/jessika.moralesmadrigal" target="_blank"><h6 class="text-primary">Jessika Morales Madrigal</h6></a>
                             </div>
                         </div>
                     </div>
@@ -447,8 +503,35 @@
             $("#iconAppM").mouseout(function(){
                 $("#myModalAppM").modal("hide");
             });
-            $("#myBtn2").click(function(){
-                $("#myModal2").modal({show: false});
+            $("#iconHardwareF").hover(function(){
+                $("#myModalHardwareF").modal({show: true,backdrop: false});
+            });
+            $("#iconHardwareF").mouseout(function(){
+                $("#myModalHardwareF").modal("hide");
+            });
+            $("#iconEnfE").hover(function(){
+                $("#myModalEnfE").modal({show: true,backdrop: false});
+            });
+            $("#iconEnfE").mouseout(function(){
+                $("#myModalEnfE").modal("hide");
+            });
+            $("#iconDatBas").hover(function(){
+                $("#myModalDatBas").modal({show: true,backdrop: false});
+            });
+            $("#iconDatBas").mouseout(function(){
+                $("#myModalDatBas").modal("hide");
+            });
+            $("#iconDesWeb").hover(function(){
+                $("#myModalDesWeb").modal({show: true,backdrop: false});
+            });
+            $("#iconDesWeb").mouseout(function(){
+                $("#myModalDesWeb").modal("hide");
+            });
+            $("#iconAppEsc").hover(function(){
+                $("#myModalAppEsc").modal({show: true,backdrop: false});
+            });
+            $("#iconAppEsc").mouseout(function(){
+                $("#myModalAppEsc").modal("hide");
             });
         });
     </script>
