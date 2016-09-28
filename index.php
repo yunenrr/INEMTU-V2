@@ -56,17 +56,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">
-                        <img src="img/logo/logo.png" 
-                             style="height: 50px;width: 76px" /></a>
+                    <a class="navbar-brand" href="index.php">
+                        <img src="img/logo/logo.png" style="height: 50px;width: 76px" />
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
                     <div class="col-md-8 col-xs-12 nav-wrap">
                         <ul class="nav navbar-nav">
                             <li><a href="#welcome" class="page-scroll">Inicio</a></li>
                             <li><a href="#services" class="page-scroll">Enfoques</a></li>
-                            <li><a href="#portfolio" class="page-scroll">Proyectos</a></li>
-                            <li><a href="#team" class="page-scroll">Ejemplo</a></li>
+                            <li><a href="#portfolio" class="page-scroll">Ejemplos</a></li>
+                            <li><a href="#team" class="page-scroll">Demostración</a></li>
                         </ul>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
             <br />
             <h2>¡Hola!</h2>
             <hr class="sep">
-            <img class="img-responsive center-block wow fadeInUp" data-wow-delay=".3s" src="img/welcome/logo.png" alt="logo">
+            <img class="img-responsive center-block wow fadeInUp" data-wow-delay=".3s" src="img/logo/logo.png" alt="logo">
             <p>Bienvenido a la charla sobre la carrera Bachillerato en Informática Empresarial, juntos vamos a aprender las diversas temáticas que son abordadas durante la carrera. Sin más preámbulo, comenzamos...</p>
         </div>
     </section>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="row wow fadeInUp" data-wow-delay=".6s">
                     <div class="col-md-4">
-                        <div class="media-left"><span class="icon-mobile"></span></div>
+                        <div class="media-left"><button style="background:#24242A;border: none" id="iconAppM"><span class="icon-mobile"></span></button></div>
                         <div class="media-body">
                             <h3>App móviles</h3>
                             <p>Una aplicación móvil se puede descargar, instalar y acceder directamente desde el teléfono
@@ -164,7 +164,31 @@
             </div>
         </div>
     </section>
+        <!-- Modal -->
+        <div class="modal fade" id="myModalAppM" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                  <img class="img-responsive" src="./img/portfolio/mobile-apps.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="myModal2" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="http://informacionimagenes.net/wp-content/uploads/2016/07/fotos-muy-graciosas-divertidas.png">
+              </div>
+            </div>
+
+          </div>
+        </div>
     <!-- Portfolio
 	============================================= -->
     <section id="portfolio">
@@ -174,9 +198,8 @@
             <p>A continuación unos proyectos realizados por los estudiantes</p>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a class="portfolio-box" href="img/portfolio/NAPACORI.png" data-lightbox="image-1" data-title="Desarrollo Web">
-                        <img src="img/portfolio/NAPACORI.png" class="img-responsive" alt="1"
-                             style="height: 235px;width: 437px;">
+                    <a class="portfolio-box thumbnail" href="img/portfolio/NAPACORI.png" data-lightbox="image-1" data-title="Desarrollo Web">
+                        <img src="img/portfolio/NAPACORI.png" class="img-responsive" alt="1">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -190,9 +213,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/Redes.png" class="portfolio-box" data-lightbox="image-2" data-title="Redes">
-                        <img src="img/portfolio/Redes.png" class="img-responsive" alt="2"
-                             style="height: 235px;width: 437px;">
+                    <a href="img/portfolio/Redes.png" class="portfolio-box thumbnail" data-lightbox="image-2" data-title="Redes">
+                        <img src="img/portfolio/Redes.png" class="img-responsive" alt="2">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -206,9 +228,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/IMG-20160924-WA0034.jpg" class="portfolio-box" data-lightbox="image-3" data-title="Lenguajes">
-                        <img src="img/portfolio/IMG-20160924-WA0034.jpg" class="img-responsive" alt="3"
-                             style="height: 235px;width: 437px;">
+                    <a href="img/portfolio/IMG-20160924-WA0034.jpg" class="portfolio-box thumbnail" data-lightbox="image-3" data-title="Lenguajes">
+                        <img src="img/portfolio/IMG-20160924-WA0034.jpg" class="img-responsive" alt="3">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -222,9 +243,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/IMG-20160924-WA0032.jpg" class="portfolio-box" data-lightbox="image-4" data-title="Lenguajes">
-                        <img src="img/portfolio/IMG-20160924-WA0032.jpg" class="img-responsive" alt="4"
-                             style="height: 235px;width: 437px;">
+                    <a href="img/portfolio/IMG-20160924-WA0032.jpg" class="portfolio-box thumbnail" data-lightbox="image-4" data-title="Lenguajes">
+                        <img src="img/portfolio/IMG-20160924-WA0032.jpg" class="img-responsive" alt="4">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -232,38 +252,6 @@
                                 </div>
                                 <div class="project-name">
                                     Kevin Esquivel y Luis Castillo
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/Buscaminas.png" class="portfolio-box" data-lightbox="image-5" data-title="Programación 1">
-                        <img src="img/portfolio/Buscaminas.png" class="img-responsive" alt="5"
-                             style="height: 235px;width: 437px;">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Programación 1
-                                </div>
-                                <div class="project-name">
-                                    Edwin Navarro Barahona
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/Buscaminas error.png" class="portfolio-box" data-lightbox="image-6" data-title="Programación 1">
-                        <img src="img/portfolio/Buscaminas error.png" class="img-responsive" alt="6"
-                             style="height: 235px;width: 437px;">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Programación 1
-                                </div>
-                                <div class="project-name">
-                                    Edwin Navarro Barahona
                                 </div>
                             </div>
                         </div>
@@ -274,7 +262,7 @@
     </section>
     <section id="team">
         <div class="container">
-            <h2>Ejemplo</h2>
+            <h2>Demostración</h2>
             <hr class="sep">
             <!-- Carrusel -->
             <div class="container">
@@ -330,13 +318,13 @@
                 <!-- Colección de botones -->
                 <div>
                     <button type="button" class="btn btn-default" 
-                            onclick="changeColor('btnDev','white')">Botón</button>
+                            onclick="changeColor('btnDev')">Botón</button>
                     <button type="button" class="btn btn-primary" 
-                            onclick="changeColor('team','#1E88E5')">Panel</button>
+                            onclick="changeColor('team')">Panel</button>
                     <button type="button" class="btn btn-success" 
-                            onclick="changeColor('myMenu','#2eb82e')">Menú</button>
+                            onclick="changeColor('myMenu')">Menú</button>
                     <button type="button" class="btn btn-warning" 
-                            onclick="changeColor('footer','#cc6600')">Footer</button>
+                            onclick="changeColor('footer')">Footer</button>
                     <button type="button" class="btn btn-default" 
                             onclick="removeChange()">Restaurar</button>
                 </div>
@@ -435,7 +423,7 @@
               ramdonColor += hexadecimal[posarray];
            }
            return ramdonColor;
-        }
+        }//Fin de la función
         
         /*
          * @param {type} inferior
@@ -448,7 +436,21 @@
            aleat = Math.random() * numPosibilidades;
            aleat = Math.floor(aleat);
            return parseInt(inferior) + aleat;
-        }
+        }//Fin de la función
+    </script>
+    <script>
+        $(document).ready(function()
+        {
+            $("#iconAppM").hover(function(){
+                $("#myModalAppM").modal({show: true,backdrop: false});
+            });
+            $("#iconAppM").mouseout(function(){
+                $("#myModalAppM").modal("hide");
+            });
+            $("#myBtn2").click(function(){
+                $("#myModal2").modal({show: false});
+            });
+        });
     </script>
 </body>
 
