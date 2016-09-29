@@ -6,7 +6,7 @@
 
 <head>
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 
     <title>INEMTU</title>
 
@@ -98,7 +98,12 @@
             <div class="services-box">
                 <div class="row wow fadeInUp" data-wow-delay=".3s">
                     <div class="col-md-4">
-                        <div class="media-left"><button style="background:#24242A;border: none" id="iconAppEsc"><span class="icon-desktop"></span></button></div>
+                        <div class="media-left">
+                            <button style="background:#24242A;border: none" id="iconAppEsc"
+                                    rel="popover">
+                                <span class="icon-desktop"></span>
+                            </button>
+                        </div>
                         <div class="media-body">
                             <h3>Aplicaciones de escritorio</h3>
                             <p>
@@ -110,7 +115,12 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="media-left"><button style="background:#24242A;border: none" id="iconDesWeb"><span class="icon-global"></span></button></div>
+                        <div class="media-left">
+                            <button style="background:#24242A;border: none" id="iconDesWeb"
+                                    rel="popover">
+                                <span class="icon-global"></span>
+                            </button>
+                        </div>
                         <div class="media-body">
                             <h3>Desarrollo web</h3>
                             <p>
@@ -122,7 +132,12 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="media-left"><button style="background:#24242A;border: none" id="iconDatBas"><span class="icon-documents"></span></button></div>
+                        <div class="media-left">
+                            <button style="background:#24242A;border: none" id="iconDatBas"
+                                    rel="popover">
+                                <span class="icon-documents"></span>
+                            </button>
+                        </div>
                         <div class="media-body">
                             <h3>Bases de datos</h3>
                             <p>
@@ -136,7 +151,12 @@
                 </div>
                 <div class="row wow fadeInUp" data-wow-delay=".6s">
                     <div class="col-md-4">
-                        <div class="media-left"><button style="background:#24242A;border: none" id="iconAppM"><span class="icon-mobile"></span></button></div>
+                        <div class="media-left">
+                            <button style="background:#24242A;border: none" id="iconAppM"
+                                    rel="popover">
+                                <span class="icon-mobile"></span>
+                            </button>
+                        </div>
                         <div class="media-body">
                             <h3>App móviles</h3>
                             <p>
@@ -148,7 +168,12 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="media-left"><button style="background:#24242A;border: none" id="iconHardwareF"><span class="icon-toolbox"></span></button></div>
+                        <div class="media-left">
+                            <button style="background:#24242A;border: none" id="iconHardwareF"
+                                    rel="popover">
+                                <span class="icon-toolbox"></span>
+                            </button>
+                        </div>
                         <div class="media-body">
                             <h3>Programación de hardware libre</h3>
                             <p>
@@ -159,7 +184,12 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="media-left"><button style="background:#24242A;border: none" id="iconEnfE"><span class="icon-pencil"></span></button></div>
+                        <div class="media-left">
+                            <button style="background:#24242A;border: none" id="iconEnfE"
+                                    rel="popover">
+                                <span class="icon-pencil"></span>
+                            </button>
+                        </div>
                         <div class="media-body">
                             <h3>Enfoque empresarial</h3>
                             <p>
@@ -173,77 +203,6 @@
             </div>
         </div>
     </section>
-        <!-- Modal -->
-        <div class="modal fade" id="myModalAppM" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                  <img class="img-responsive" src="./img/portfolio/mobile-apps.jpg">
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Modal -->
-        <div class="modal fade" id="myModalHardwareF" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                  <img class="img-responsive" src="./img/portfolio/maxresdefault.jpg">
-              </div>
-            </div>
-          </div>
-        </div>
-        
-       <!-- Modal -->
-        <div class="modal fade" id="myModalEnfE" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                  <img class="img-responsive" src="./img/portfolio/empresa.jpg">
-              </div>
-            </div>
-          </div>
-        </div>
-       
-     <!-- Modal -->
-        <div class="modal fade" id="myModalAppEsc" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                  <img class="img-responsive" src="./img/portfolio/ListImagenes.png">
-              </div>
-            </div>
-          </div>
-        </div>
-     
-     <!-- Modal -->
-        <div class="modal fade" id="myModalDesWeb" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                  <img class="img-responsive" src="./img/portfolio/web-app.png">
-              </div>
-            </div>
-          </div>
-        </div>
-
-     <!-- Modal -->
-        <div class="modal fade" id="myModalDatBas" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-body">
-                  <img class="img-responsive" src="./img/portfolio/filesbasededatos.png">
-              </div>
-            </div>
-          </div>
-        </div>
      
     <!-- Portfolio
 	============================================= -->
@@ -254,7 +213,7 @@
             <p>A continuación unos proyectos realizados por los estudiantes</p>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a class="portfolio-box thumbnail" href="img/portfolio/NAPACORI.png" data-lightbox="image-1" data-title="Desarrollo Web">
+                    <a class="portfolio-box" href="img/portfolio/NAPACORI.png" data-lightbox="image-1" data-title="Desarrollo Web">
                         <img src="img/portfolio/NAPACORI.png" class="img-responsive" alt="1">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -269,7 +228,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/Redes.png" class="portfolio-box thumbnail" data-lightbox="image-2" data-title="Redes">
+                    <a href="img/portfolio/Redes.png" class="portfolio-box" data-lightbox="image-2" data-title="Redes">
                         <img src="img/portfolio/Redes.png" class="img-responsive" alt="2">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -284,7 +243,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/IMG-20160924-WA0034.jpg" class="portfolio-box thumbnail" data-lightbox="image-3" data-title="Lenguajes">
+                    <a href="img/portfolio/IMG-20160924-WA0034.jpg" class="portfolio-box" data-lightbox="image-3" data-title="Lenguajes">
                         <img src="img/portfolio/IMG-20160924-WA0034.jpg" class="img-responsive" alt="3">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -299,15 +258,30 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/IMG-20160924-WA0032.jpg" class="portfolio-box thumbnail" data-lightbox="image-4" data-title="Lenguajes">
-                        <img src="img/portfolio/IMG-20160924-WA0032.jpg" class="img-responsive" alt="4">
+                    <a href="img/portfolio/library.PNG" class="portfolio-box" data-lightbox="image-4" data-title="Programación I">
+                        <img src="img/portfolio/library.PNG" class="img-responsive" alt="4">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Lenguajes
+                                    Programación I
                                 </div>
                                 <div class="project-name">
-                                    Kevin Esquivel y Luis Castillo
+                                    Michal Meléndez y Joseph Cordero
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/Maze.PNG" class="portfolio-box" data-lightbox="image-5" data-title="Programación I">
+                        <img src="img/portfolio/Maze.PNG" class="img-responsive" alt="5">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Programación I
+                                </div>
+                                <div class="project-name">
+                                    Michal Meléndez y Yunen Ramos
                                 </div>
                             </div>
                         </div>
@@ -431,109 +405,25 @@
     <script src="plugins/inview/jquery.inview.min.js"></script>
     <script src="plugins/Lightbox/dist/js/lightbox.min.js"></script>
     <script src="plugins/WOW/dist/wow.min.js"></script>
+    <script async src="./js/jsButtons.js"></script>
     <script>
-        /*
-         * Función que permite cambiar el color de fondo
-         * @param {string} section
-         * @param {string} color
-         * @returns {none}
-         */
-        function changeColor(section)
-        {
-            document.getElementById(section).style.backgroundColor=getColor();
-        }//Fin de la función
+        var imageAppEsc = '<img class="img-responsive" src="./img/portfolio/ListImagenes.png">';
+        $('#iconAppEsc').popover({placement: 'top', content: imageAppEsc,trigger: "hover", html: true});
         
-        /*
-         * Función que nos permite eliminar los cambios realizados
-         */
-        function removeChange()
-        {
-            document.getElementById('btnDev').style.backgroundColor='#24242A';
-            document.getElementById('myMenu').style.backgroundColor='#24242A';
-            document.getElementById('footer').style.backgroundColor='#24242A';
-            document.getElementById('team').style.backgroundColor='#FFF';
-        }
+        var imageDesWeb = '<img class="img-responsive" src="./img/portfolio/web-app.png">';
+        $('#iconDesWeb').popover({placement: 'top', content: imageDesWeb,trigger: "hover", html: true});
 
-        /**
-         * Función que permite cambiar el color de texto
-         * @param {string} section
-         * @param {string} color
-         * @returns {none}
-         */
-        function changeColorText(section,color)
-        {
-            document.getElementById(section).style.color=color;
-        }//Fin de la función
+        var imageDatBas = '<img class="img-responsive" src="./img/portfolio/filesbasededatos.png">';
+        $('#iconDatBas').popover({placement: 'top', content: imageDatBas,trigger: "hover", html: true});
         
-        /**
-         * Función que retorna un color
-         * */
-        function getColor()
-        {
-           hexadecimal = new Array("0","1","2","3","4","5","6","7","8","9",
-           "A","B","C","D","E","F");
-           ramdonColor = "#";
-           for (i=0;i<6;i++)
-           {
-              posarray = aleatorio(0,hexadecimal.length);
-              ramdonColor += hexadecimal[posarray];
-           }
-           return ramdonColor;
-        }//Fin de la función
+        var imageAppM = '<img class="img-responsive" src="./img/portfolio/mobile-apps.jpg">';
+        $('#iconAppM').popover({placement: 'top', content: imageAppM,trigger: "hover", html: true});
         
-        /*
-         * @param {type} inferior
-         * @param {type} superior
-         * @returns {numPosibilidades|superior|aleatorio.inferior|inferior|aleatorio.superior|Number|aleat}
-         */
-        function aleatorio(inferior,superior)
-        {
-           numPosibilidades = superior - inferior;
-           aleat = Math.random() * numPosibilidades;
-           aleat = Math.floor(aleat);
-           return parseInt(inferior) + aleat;
-        }//Fin de la función
-    </script>
-    <script>
-        $(document).ready(function()
-        {
-            $("#iconAppM").hover(function(){
-                $("#myModalAppM").modal({show: true,backdrop: false});
-            });
-            $("#iconAppM").mouseout(function(){
-                $("#myModalAppM").modal("hide");
-            });
-            $("#iconHardwareF").hover(function(){
-                $("#myModalHardwareF").modal({show: true,backdrop: false});
-            });
-            $("#iconHardwareF").mouseout(function(){
-                $("#myModalHardwareF").modal("hide");
-            });
-            $("#iconEnfE").hover(function(){
-                $("#myModalEnfE").modal({show: true,backdrop: false});
-            });
-            $("#iconEnfE").mouseout(function(){
-                $("#myModalEnfE").modal("hide");
-            });
-            $("#iconDatBas").hover(function(){
-                $("#myModalDatBas").modal({show: true,backdrop: false});
-            });
-            $("#iconDatBas").mouseout(function(){
-                $("#myModalDatBas").modal("hide");
-            });
-            $("#iconDesWeb").hover(function(){
-                $("#myModalDesWeb").modal({show: true,backdrop: false});
-            });
-            $("#iconDesWeb").mouseout(function(){
-                $("#myModalDesWeb").modal("hide");
-            });
-            $("#iconAppEsc").hover(function(){
-                $("#myModalAppEsc").modal({show: true,backdrop: false});
-            });
-            $("#iconAppEsc").mouseout(function(){
-                $("#myModalAppEsc").modal("hide");
-            });
-        });
+        var imageHardwareF = '<img class="img-responsive" src="./img/portfolio/maxresdefault.jpg">';
+        $('#iconHardwareF').popover({placement: 'top', content: imageHardwareF,trigger: "hover", html: true});
+
+        var imageEnfE = '<img class="img-responsive" src="./img/portfolio/empresa.jpg">';
+        $('#iconEnfE').popover({placement: 'top', content: imageEnfE,trigger: "hover", html: true});
     </script>
 </body>
 
