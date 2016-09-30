@@ -6,7 +6,7 @@
 
 <head>
 
-    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
     <title>INEMTU</title>
 
@@ -214,7 +214,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <a class="portfolio-box" href="img/portfolio/NAPACORI.png" data-lightbox="image-1" data-title="Desarrollo Web">
-                        <img src="img/portfolio/NAPACORI.png" class="img-responsive" alt="1">
+                        <img src="img/portfolio/min/NAPACORI.png" class="img-responsive" alt="1">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -229,7 +229,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <a href="img/portfolio/Redes.png" class="portfolio-box" data-lightbox="image-2" data-title="Redes">
-                        <img src="img/portfolio/Redes.png" class="img-responsive" alt="2">
+                        <img src="img/portfolio/min/Redes.png" class="img-responsive" alt="2">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -243,12 +243,12 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/IMG-20160924-WA0034.jpg" class="portfolio-box" data-lightbox="image-3" data-title="Lenguajes">
-                        <img src="img/portfolio/IMG-20160924-WA0034.jpg" class="img-responsive" alt="3">
+                    <a href="img/portfolio/IMG-20160924-WA0034.jpg" class="portfolio-box" data-lightbox="image-3" data-title="Desarrollo Web">
+                        <img src="img/portfolio/min/IMG-20160924-WA0034.jpg" class="img-responsive" alt="3">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Lenguajes
+                                    Desarrollo Web
                                 </div>
                                 <div class="project-name">
                                     Kevin Esquivel y Luis Castillo
@@ -258,30 +258,75 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/library.PNG" class="portfolio-box" data-lightbox="image-4" data-title="Programación I">
-                        <img src="img/portfolio/library.PNG" class="img-responsive" alt="4">
+                    <a href="img/portfolio/IMG-20160924-WA0032.jpg" class="portfolio-box" data-lightbox="image-4" data-title="Desarrollo Web">
+                        <img src="img/portfolio/min/IMG-20160924-WA0032.jpg" class="img-responsive" alt="4">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Programación I
+                                    Desarrollo Web
                                 </div>
                                 <div class="project-name">
-                                    Michal Meléndez y Joseph Cordero
+                                    Kevin Esquivel y Luis Castillo
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <a href="img/portfolio/Maze.PNG" class="portfolio-box" data-lightbox="image-5" data-title="Programación I">
-                        <img src="img/portfolio/Maze.PNG" class="img-responsive" alt="5">
+                    <a href="img/portfolio/library.png" class="portfolio-box" data-lightbox="image-5" data-title="Aplicación de escritorio">
+                        <img src="img/portfolio/min/library.png" class="img-responsive" alt="5">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Programación I
+                                    Aplicación de escritorio
                                 </div>
                                 <div class="project-name">
-                                    Michal Meléndez y Yunen Ramos
+                                    Michael Meléndez y Joseph Cordero
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/Maze.png" class="portfolio-box" data-lightbox="image-6" data-title="Aplicación de escritorio">
+                        <img src="img/portfolio/min/Maze.png" class="img-responsive" alt="6">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Aplicación de escritorio
+                                </div>
+                                <div class="project-name">
+                                    Michael Meléndez y Yunen Ramos
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/mosaic.png" class="portfolio-box" data-lightbox="image-7" data-title="Aplicación de escritorio">
+                        <img src="img/portfolio/min/mosaic.png" class="img-responsive" alt="7">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Aplicación de escritorio
+                                </div>
+                                <div class="project-name">
+                                    Michael Meléndez y Joseph Cordero
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/Buscaminas.png" class="portfolio-box" data-lightbox="image-8" data-title="Aplicación de escritorio">
+                        <img src="img/portfolio/min/Buscaminas.png" class="img-responsive" alt="8">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Aplicación de escritorio
+                                </div>
+                                <div class="project-name">
+                                    Edwin Navarro Barahona
                                 </div>
                             </div>
                         </div>
