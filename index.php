@@ -12,14 +12,17 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="http://inemtu.com/" />
+    <meta property="og:title" content="INEMTU" />
+    <meta property="og:description" content="Informática Empresarial Turrialba" />
+    <meta property="og:image" content="./img/logo/logo.png"" />
+    <meta name="author" content="Yunen Ramos Ramírez" />
+    <meta property="fb:app_id" content="314305518936861" />
 
     <!-- Bootstrap Css -->
     <link href="bootstrap-assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Style -->
-    <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
-    <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
     <link href="plugins/Lightbox/dist/css/lightbox.css" rel="stylesheet">
     <link href="plugins/Icons/et-line-font/style.css" rel="stylesheet">
     <link href="plugins/animate.css/animate.css" rel="stylesheet">
@@ -41,6 +44,23 @@
 </head>
 
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '314305518936861',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/es_LA/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
     <!-- Preloader
 	============================================= -->
     <div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
@@ -68,6 +88,11 @@
                             <li><a href="#portfolio" class="page-scroll">Ejemplos</a></li>
                             <li><a href="#team" class="page-scroll">Demostración</a></li>
                         </ul>
+                    </div>
+                    <div class="social-media hidden-sm hidden-xs">
+                    	<ul class="nav navbar-nav">
+                    		<li><a href="https://www.facebook.com/Inemtu-1420709231277126/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    	</ul>
                     </div>
                 </div>
             </div>
@@ -175,9 +200,9 @@
                             </button>
                         </div>
                         <div class="media-body">
-                            <h3>Programación de hardware libre</h3>
+                            <h3>Programación de hardware</h3>
                             <p>
-                                Se trabaja con hardware libre, como lo es una 
+                                Se trabaja con hardware, como lo es una 
                                 placa Arduino, y con un entorno de desarrollo, para 
                                 facilitar el uso en proyectos multidisciplinarios.
                             </p>
@@ -332,6 +357,21 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/Arduino.jpg" class="portfolio-box" data-lightbox="image-9" data-title="Programación de hardware libre">
+                        <img src="img/portfolio/min/Arduino.jpg" class="img-responsive" alt="9">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Programación de hardware
+                                </div>
+                                <div class="project-name">
+                                    Michael Meléndez y Joseph Cordero
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -392,18 +432,17 @@
             <div class="container">
                 <!-- Colección de botones -->
                 <div>
-                    <button type="button" class="btn btn-default" 
-                            onclick="changeColor('btnDev')">Botón</button>
                     <button type="button" class="btn btn-primary" 
                             onclick="changeColor('team')">Panel</button>
                     <button type="button" class="btn btn-success" 
                             onclick="changeColor('myMenu')">Menú</button>
-                    <button type="button" class="btn btn-warning" 
-                            onclick="changeColor('footer')">Footer</button>
                     <button type="button" class="btn btn-default" 
                             onclick="removeChange()">Restaurar</button>
                 </div>
             </div>
+        </div>
+        <div class="container">
+        	<div class="fb-comments" data-href="http://inemtu.com/" data-numposts="5" data-order-by="social"></div>
         </div>
     </section>
     <!-- Footer
@@ -412,7 +451,7 @@
         <div class="container">
             <h6 >&copy; 2016 INEMTU: Informática Empresarial Turrialba</h6>
                 <!-- Trigger the modal with a button -->
-                <button type="button" class="btn btn-info btn-lg" id="btnDev" 
+                <button type="button" class="btn btn-info btn-lg"
                         data-toggle="modal" data-target="#myModal"
                         style="background-color: #24242A;">Desarrolladores</button>
 
@@ -428,9 +467,9 @@
                                 <h4 class="modal-title text-center" style="color:#FFF;">Desarrolladores</h4>
                             </div>
                             <div class="modal-body text-left">
-                                <a href="https://www.facebook.com/yunenrr" target="_blank"><h6 class="text-primary">Yunen Ramos Ramírez</h6></a>
-                                <a href="https://www.facebook.com/vanessa.calderon.908347" target="_blank"><h6 class="text-primary">Karen Calderón Calvo</h6></a>
-                                <a href="https://www.facebook.com/jessika.moralesmadrigal" target="_blank"><h6 class="text-primary">Jessika Morales Madrigal</h6></a>
+                                <h6 class="text-primary"><a href="https://www.facebook.com/yunenrr" target="_blank">Yunen Ramos Ramírez</a></h6>
+                                <h6 class="text-primary"><a href="https://www.facebook.com/jessika.moralesmadrigal" target="_blank">Karen Calderón Calvo</a></h6>
+                                <h6 class="text-primary"><a href="https://www.facebook.com/michael.melendezm" target="_blank">Jessika Morales Madrigal</a></h6>
                             </div>
                         </div>
                     </div>
@@ -444,9 +483,7 @@
     <script src="bootstrap-assets/js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
     <!-- JS PLUGINS -->
-    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
-    <script src="plugins/countTo/jquery.countTo.js"></script>
     <script src="plugins/inview/jquery.inview.min.js"></script>
     <script src="plugins/Lightbox/dist/js/lightbox.min.js"></script>
     <script src="plugins/WOW/dist/wow.min.js"></script>
