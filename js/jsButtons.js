@@ -1,7 +1,6 @@
 function changeColor(section)
 {document.getElementById(section).style.backgroundColor=getColor();}
-function removeChange()
-{document.getElementById('btnDev').style.backgroundColor='#24242A';document.getElementById('myMenu').style.backgroundColor='#24242A';document.getElementById('footer').style.backgroundColor='#24242A';document.getElementById('team').style.backgroundColor='#FFF';}
+function removeChange(){document.getElementById('myMenu').style.backgroundColor='#24242A';document.getElementById('team').style.backgroundColor='#FFF';}
 function changeColorText(section,color)
 {document.getElementById(section).style.color=color;}
 function getColor()
